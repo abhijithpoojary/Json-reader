@@ -1,7 +1,7 @@
-
+/*
 * {
     box-sizing: border-box;
-  }
+  }*/
 
   #myVideo {
     position: fixed;
@@ -15,8 +15,9 @@
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     position: absolute;
-    left: 520px;
-    top: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: 'Philosopher', sans-serif;
     color: #DAA520;
   }
@@ -31,9 +32,6 @@ span{
 }
 
 
-
-
-/* CSS */
 .button-17 {
   align-items: center;
   appearance: none;
@@ -47,7 +45,7 @@ span{
   display: inline-flex;
   fill: currentcolor;
   font-family: "Google Sans",Roboto,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   height: 48px;
   justify-content: center;
